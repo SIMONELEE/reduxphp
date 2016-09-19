@@ -38,6 +38,7 @@ $connection->set_charset("utf8");
 					<h2>' . $jokes['joke'] .  '</h2>	       
             </div>';
 			echo '<!-- single joke end -->';}
+		 
 		 ?>
 </body>
 </html>
