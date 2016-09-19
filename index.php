@@ -15,7 +15,8 @@ $connection->set_charset("utf8");
 </head>  
 
 <body> 
-<header> <h1>Chuck Norris Facts</h1>
+	<header>
+    	<h1>Chuck Norris Facts</h1>
 
 <?php 
 		 if ($connection->connect_error) {
@@ -25,7 +26,7 @@ $connection->set_charset("utf8");
 			}
 		 
 		 ?>
-         </header>
+	</header>
          <?php 
 		 $jokedata = $connection->query("SELECT * FROM joke ORDER BY id DESC"); 
 		 $joke = $data->fetch_assoc();
