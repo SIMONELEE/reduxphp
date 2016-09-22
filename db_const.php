@@ -1,8 +1,8 @@
 <?php
-	const DB_HOST = 'localhost';
-	const DB_USER = 'simone';
-	const DB_PASS = 'php123';
-	const DB_NAME = 'phpredux';
+	const DB_HOST = 'simonelee.dk.mysql';
+	const DB_USER = 'simonelee_dk';
+	const DB_PASS = 'nYvNFMtA';
+	const DB_NAME = 'simonelee_dk';
 	
 	
 	
